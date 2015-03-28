@@ -11,6 +11,7 @@ public class Obraz {
 			
 		//	public void run() {
 				new Okno();
+				
 		//	}
 			
 			

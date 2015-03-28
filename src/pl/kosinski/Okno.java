@@ -10,7 +10,6 @@ public class Okno extends JFrame {
 
 		
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-	
 		JPanel obrazPanel = new ImageHandler();
 		add(obrazPanel);
 		
