@@ -9,12 +9,13 @@ import java.awt.image.ColorModel;
 import java.awt.image.RescaleOp;
 import java.io.File;
 import java.io.IOException;
+import java.text.AttributedCharacterIterator;
+
 import javax.imageio.ImageIO;
 import javax.swing.JPanel;
 
 public class ImageHandler extends JPanel {
 	private BufferedImage obraz = null;
-	private BufferedImage obraz2 = null;
 	public static AffineTransform at = null;
 	public ImageHandler() {
 		super();
