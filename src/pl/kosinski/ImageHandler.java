@@ -1,6 +1,5 @@
 package pl.kosinski;
 
-//~--- JDK imports ------------------------------------------------------------
 
 import java.awt.Dimension;
 import java.awt.Graphics;
@@ -14,7 +13,9 @@ import javax.imageio.ImageIO;
 import javax.swing.JPanel;
 
 public class ImageHandler extends JPanel {
-    public static AffineTransform at    = null;
+  
+	private static final long serialVersionUID = 1L;
+	public static AffineTransform at    = null;
     private BufferedImage         obraz = null;
     public int[][] obraz_tab;
     public ImageHandler() {
@@ -24,7 +25,6 @@ public class ImageHandler extends JPanel {
             obraz = ImageIO.read(new File("C:\\Users\\Kooooo\\Desktop\\WIN_20150405_145705.JPG"));
         } catch (IOException e) {
 
-            // TODO Auto-generated catch block
             e.printStackTrace();
         }
     	obraz_tab = new int[obraz.getWidth()][obraz.getHeight()];
@@ -68,6 +68,3 @@ private void binaryzacja(){
 	
 }}
 
-
-
-//~ Formatted by Jindent --- http://www.jindent.com

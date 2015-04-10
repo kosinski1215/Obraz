@@ -1,11 +1,12 @@
 package pl.kosinski;
 
-//~--- JDK imports ------------------------------------------------------------
-
 import javax.swing.*;
 
 public class Okno extends JFrame {
-    public Okno() {
+
+	private static final long serialVersionUID = 1L;
+
+	public Okno() {
         super("Obrazek");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
@@ -16,6 +17,3 @@ public class Okno extends JFrame {
         setVisible(true);
     }
 }
-
-
-//~ Formatted by Jindent --- http://www.jindent.com
